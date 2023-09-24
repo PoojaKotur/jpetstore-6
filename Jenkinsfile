@@ -15,7 +15,7 @@ pipeline{
         }
         stage ('checkout scm') {
             steps {
-                git 'https://github.com/Narian318/jpetstore-6.git'
+                git ''
             }
         }
         stage ('maven compile') {
